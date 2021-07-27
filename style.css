@@ -1,0 +1,124 @@
+/**** Card style ****/
+
+/***關於<html>和<body>這行字體設定因為與Bootstrap的CSS variable牴觸，所以無效...***/
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /*outline: 1px solid black;  */
+  margin: 0px auto;
+  padding: 0px 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin: 10px auto;
+  /*outline: 3px solid orange; */
+  padding: 0px 40px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.modal {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.homepage-section {
+  width: 100%;
+  height: 600px;
+  margin: 0px;
+  padding: 0px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(https://lh3.googleusercontent.com/PaLWL9jd-t438QIg_G-NObZoS1VJxwzhna_TktmFB_ak4kF9pGxjTBmL3CkoBZrWF3fvJTZkjc5hpSUY_Xm8pmDYlVfwETDZGAQ4Ce7pR8WehTEczfos95RU_JOftoXWLMIMQ3pHSmOPSW3W2JtMTLwp9rRiv9Htir_oKLZit3gIl56Qow-mYJqSXdpehul3aEjzGMfleAIjZIvA0mNH8Zxvr5Yout1bSY-gqX3PWlePRT8al1VIVE-Ui-DM1JlapS1bwjekEdVJH7qKYyIGVZZNjFQGBhf4CtIaYGaFHte9_df2fI7HoHDAhbf2u1XX0f9wGV5_HioISqfcfBLQ49O2gsIl54GsuuBSVvpb3-M4el7kwp0GSfLcAJetUK4lNf8jSplQ_w1SKMv7aYXGwxfNYW9AyHKbW8xDRt1hjfbSOVPXzJgzJcYtgIr8TcsKaOHGAXthOG-Vgi-XD0hwUsCWVS6lZ18T8p4cUTaIu7no_lpkK8lQ7juqy-Y2EZg4iQrseOmx9WIH9qw8fJoJPj9bdRSitrh1SE5AlA05f55AAwEGjgzUDJrfGsRuwpvka1-eabAlc4W5UEP5zHTL_1-xeC-YYC5TWsQ_NeHJ0gP_5xaan-n9GVZjR_A93cHYUEDqjtbv4S1puB4qqcDd_vwtRDh42qERIPSIR5rJeWNKmgaibscbTp-1iecVNW914yG7whjDm3rbPqXcJpMlqV4=w1303-h600-no?authuser=0);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.head-description {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+#genderGroup {
+  margin: 0 5px;
+}
+
+#female,
+#male {
+  height: 100%;
+  width: 100%;
+}
+
+#female:hover,
+#male:hover {
+  background-color: #ffd306;
+}
+
+.show-friends-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  font-weight: bold;
+}
+
+.card-name {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  padding-bottom: 0px;
+  /* outline: 3px solid orange */
+}
+
+.btn-show-info,
+.btn-add-favorite {
+  margin: 0 3px;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/**** Pagination style *****/
+.pagination > li > a {
+  background-color: white;
+  color: gray;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: darkblue;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.company-information-section {
+  background-color: #f0f0f0;
+  color: #3c3c3c;
+}
